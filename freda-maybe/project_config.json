@@ -1,0 +1,104 @@
+{
+  "audioPath" : "",
+  "created" : "2025-04-27T16:52:59Z",
+  "description" : "",
+  "lastModified" : "2025-04-29T04:39:49Z",
+  "preferences" : {
+    "defaultGridVisible" : false,
+    "defaultVolume" : 0.5,
+    "lastOpenedTime" : "2025-04-29T04:25:44Z"
+  },
+  "projectName" : "Untitled Project",
+  "scripts" : [
+    {
+      "enabled" : true,
+      "name" : "chorus",
+      "settings" : {
+        "text" : "Maybe the sun will shine  dasdas dasd asdasdasdasdasdasdasdasdsadsa"
+      },
+      "zIndex" : 1
+    },
+    {
+      "enabled" : true,
+      "name" : "background",
+      "settings" : {
+        "startTime" : 0,
+        "textureName" : "sb\/bg_blur.jpg"
+      },
+      "zIndex" : 2
+    },
+    {
+      "enabled" : true,
+      "name" : "kiai",
+      "settings" : {
+
+      },
+      "zIndex" : 3
+    },
+    {
+      "enabled" : true,
+      "name" : "squares",
+      "settings" : {
+
+      },
+      "zIndex" : 4
+    },
+    {
+      "enabled" : true,
+      "name" : "pulse",
+      "settings" : {
+
+      },
+      "zIndex" : 5
+    },
+    {
+      "enabled" : true,
+      "name" : "flaretrails",
+      "settings" : {
+
+      },
+      "zIndex" : 6
+    },
+    {
+      "enabled" : true,
+      "name" : "circlesparkle",
+      "settings" : {
+
+      },
+      "zIndex" : 7
+    },
+    {
+      "enabled" : true,
+      "name" : "foreground",
+      "settings" : {
+
+      },
+      "zIndex" : 8
+    },
+    {
+      "enabled" : true,
+      "name" : "flash",
+      "settings" : {
+
+      },
+      "zIndex" : 9
+    },
+    {
+      "enabled" : true,
+      "name" : "explosion",
+      "settings" : {
+
+      },
+      "zIndex" : 10
+    },
+    {
+      "enabled" : true,
+      "name" : "helperstext",
+      "settings" : {
+
+      },
+      "zIndex" : 11
+    }
+  ],
+  "version" : "1.0"
+}
