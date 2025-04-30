@@ -2,11 +2,11 @@
   "audioPath" : "",
   "created" : "2025-04-27T16:52:59Z",
   "description" : "",
-  "lastModified" : "2025-04-29T04:45:19Z",
+  "lastModified" : "2025-04-30T05:29:43Z",
   "preferences" : {
     "defaultGridVisible" : false,
     "defaultVolume" : 0.5,
-    "lastOpenedTime" : "2025-04-29T04:45:19Z"
+    "lastOpenedTime" : "2025-04-30T05:27:51Z"
   },
   "projectName" : "Untitled Project",
   "scripts" : [
@@ -46,7 +46,7 @@
       "enabled" : true,
       "name" : "chorus",
       "settings" : {
-
+        "shadow" : true
       },
       "zIndex" : 5
     },
@@ -70,7 +70,7 @@
       "enabled" : true,
       "name" : "squares",
       "settings" : {
-
+        "dotSpritePath" : "sb\/square.png"
       },
       "zIndex" : 8
     },
@@ -86,7 +86,7 @@
       "enabled" : true,
       "name" : "helperstext",
       "settings" : {
-
+        "isAdditiveBlend" : true
       },
       "zIndex" : 10
     },

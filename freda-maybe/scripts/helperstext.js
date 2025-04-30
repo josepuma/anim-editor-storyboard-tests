@@ -7,8 +7,8 @@ var params = {
     backgroundBorder: "sb/bg_transparent_border.png",
     kiaiTimeStart: 46801,
     endKiaiTime: 69476,
-    endSongTime: 175819
-};
+    endSongTime: 175819,
+    isAdditiveBlend: true};
 
 /**
  * Initialization function - runs when the script is loaded
@@ -89,7 +89,9 @@ function explossiveText(text, startTime, endTime, isCentered = true, size = .5, 
         letter.addFadeTween(endTime, endTime + durationQuarterNote * 8, 1, 0, "easeout");
         letter.addScaleTween(startTime, endTime, textParams.scale, textParams.scale);
         letter.addMoveXTween(startTime, endTime, letterCenterX, letterCenterX);
-        letter.addBlendMode(startTime, startTime);
+        if (params.isAdditiveBlend) {
+            letter.addBlendMode(startTime, startTime);
+        }
 
         if (!hasPulse) {
             if (i % 2 == 0) {
